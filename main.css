@@ -1,0 +1,40 @@
+body {
+
+/* background-color: #614d4d; */
+/* background-color: #0d8222; */
+/* background-color: #13c8be; */
+background-color: #625565;
+color: #f7f7f7;
+/* font-family: 'Montserrat Subrayada', sans-serif; */
+font-family: 'Laila', serif;
+}
+
+h1 {
+	margin-left: 60px;
+}
+
+.content {
+background-color: #b1acb9;
+border: 2px solid white;
+text-align: center;
+margin-top: 60px;
+
+}
+
+.entry-field {
+	list-style: none;
+
+}
+
+.button-button {
+	display: inline;
+}
+
+h2 {
+	margin-left: 60px;
+}
+
+
+
+
+
