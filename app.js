@@ -1,4 +1,3 @@
-
 function plusButton() {
 	//get the values of x and y
 	var x = parseInt($('#x').val(),10);
