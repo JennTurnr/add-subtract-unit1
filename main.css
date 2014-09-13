@@ -16,6 +16,7 @@ font-family: 'Roboto', sans-serif;
 h1 {
 	margin-left: 60px;
 	font-size: 35px;
+
 }
 
 .content {
@@ -43,7 +44,10 @@ h2 {
 	color: #000000;
 }
 
-
+.textbox {
+	height: 20px;
+	width: 80px;
+}
 
 
 

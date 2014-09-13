@@ -1,7 +1,22 @@
 function plusButton() {
+	
 	//get the values of x and y
 	var x = parseInt($('#x').val(),10);
 	var y = parseInt($('#y').val(),10);
+
+	// If a non-integer is entered
+	if (isNaN(x)) {
+		prompt("Please type in a number");
+		$('#x').val('');
+		return false;	
+	}
+
+
+	if (isNaN(y)) {
+		prompt("Please type in a number");
+		$('#y').val('');
+		return false;
+	}
 
 	// add the values
 	var answer =  x + y;
@@ -15,10 +30,7 @@ function plusButton() {
 	$('#y').val('');
 	event.preventDefault();
 
-	// If a non-integer is entered
-	//if (isNaN(x,y)) {
-	//	alert("Please enter a number");
-	//}
+
 }
 
 
@@ -27,6 +39,20 @@ function minusButton() {
 	// get the values of x and y
 	var x1 = parseInt($('#x').val(),10);
 	var y1 = parseInt($('#y').val(),10);
+
+	// If not an integer
+	if (isNaN(x1)) {
+		prompt("Please type in a number");
+		$('#x1').val('');
+		return false;
+		}
+
+
+	if (isNaN(y1)) {
+		prompt("Please type in a number");
+		$('#y1').val('');
+		return false;
+	}
 	
 
 	// subtract the values
@@ -40,10 +66,6 @@ function minusButton() {
 	$('#y').val('');
 	event.preventDefault();
 
-	// If a non-integer is entered
-	//if (isNaN(x,y)) {
-		//alert("Please enter a number");
-	//}
 }
 
 
