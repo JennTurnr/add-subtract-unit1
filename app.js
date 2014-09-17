@@ -6,18 +6,22 @@ function plusButton() {
 
 	// If a non-integer is entered
 	if (isNaN(x)) {
-		prompt("Please type in a number");
+		//prompt("Please type in a number");
 		$('#x').val('');
-		return false;	
+		//return false;	
 	}
 
 
 	if (isNaN(y)) {
-		prompt("Please type in a number");
+		//prompt("Please type in a number");
 		$('#y').val('');
-		return false;
+		//return false;
 	}
 
+
+	if (isNaN(x)|| isNaN(y)) {
+	return false;
+		}
 	// add the values
 	var answer =  x + y;
 
@@ -42,18 +46,21 @@ function minusButton() {
 
 	// If not an integer
 	if (isNaN(x1)) {
-		prompt("Please type in a number");
-		$('#x1').val('');
-		return false;
+		//prompt("Please type in a number");
+		$('#x').val('');
+		//return false;
 		}
 
 
 	if (isNaN(y1)) {
-		prompt("Please type in a number");
-		$('#y1').val('');
-		return false;
+		//prompt("Please type in a number");
+		$('#y').val('');
+		//return false;
 	}
 	
+	if (isNaN(x1)|| isNaN(y1)) {
+	return false;
+		}
 
 	// subtract the values
 	var answer2 = x1 - y1;
